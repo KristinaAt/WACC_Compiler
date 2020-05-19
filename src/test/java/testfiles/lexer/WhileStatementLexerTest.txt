@@ -1,0 +1,6 @@
+begin
+bool b = true ;
+while b do
+print "Will exit the while loop next time round!"
+done ;
+end

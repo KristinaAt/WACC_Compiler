@@ -1,0 +1,13 @@
+# constant folding test
+
+# Output:
+# 1048552
+
+# Program:
+
+begin
+ int i = 320 * 200 * 32;
+ int k = 320 + 200 + 32 - 1000000;
+ println i + k
+end
+ 

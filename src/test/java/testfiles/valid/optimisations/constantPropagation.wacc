@@ -1,0 +1,13 @@
+# constant propagation test
+
+# Output:
+# 0
+
+# Program:
+
+begin
+ int x = 14;
+ int y = 7 - x / 2;
+ println y * (28 / x + 2)
+end
+ 

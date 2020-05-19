@@ -1,0 +1,14 @@
+# evaluating shift right
+
+# Output:
+# 256
+# 1
+
+# Program:
+
+begin
+  int a = 1024 ;
+  println a >> 2 ;
+  int b = 10 ;
+  println a >> b 
+end

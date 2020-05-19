@@ -1,0 +1,73 @@
+Prog
+	Function
+		INT
+		f
+		Param List
+			Param
+				INT
+				x
+		Compound Statement
+			If
+				Compare expression
+					x
+					EQ
+					0
+			then
+				Skip
+			else
+				Compound Statement
+					Compound Statement
+						Compound Statement
+							Declare
+								INT
+								i
+								x
+							while
+								Compare expression
+									i
+									GREATER_THAN
+									0
+							do
+								Compound Statement
+									print
+										"-"
+									Assign
+										i
+										Arithmetic expression
+											i
+											BIN_MINUS
+											1
+							done
+						println
+							""
+					Declare
+						INT
+						s
+						Call
+							f
+							Argument List
+								Arithmetic expression
+									x
+									BIN_MINUS
+									1
+			return
+				0
+	Body
+	Compound Statement
+		Compound Statement
+			Compound Statement
+				println
+					"Please enter the size of the triangle to print:"
+				Declare
+					INT
+					x
+					0
+			read
+				x
+		Declare
+			INT
+			s
+			Call
+				f
+				Argument List
+					x

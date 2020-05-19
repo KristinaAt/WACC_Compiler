@@ -1,0 +1,1 @@
+# freeing of arrays# Output:# #empty## Program:begin  int[] a = [1,2,3,4];  free a;  free aend

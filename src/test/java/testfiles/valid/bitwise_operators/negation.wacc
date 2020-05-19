@@ -1,0 +1,12 @@
+# evaluating negation
+
+# Output:
+# -6
+
+
+# Program:
+begin
+  int a = 5 ;
+  println ~a
+end
+ 

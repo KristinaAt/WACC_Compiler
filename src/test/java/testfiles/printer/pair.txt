@@ -1,0 +1,44 @@
+Prog
+	Body
+	Compound Statement
+		Compound Statement
+			Compound Statement
+				Compound Statement
+					Compound Statement
+						Compound Statement
+							Compound Statement
+								Compound Statement
+									Declare
+										pair type
+											PAIR
+											PAIR
+										p
+										New pair stat
+											Null
+											Null
+									print
+										p
+								print
+									" = ("
+							Declare
+								pair type
+									PAIR
+									PAIR
+								q
+								FST
+									p
+						print
+							q
+					print
+						","
+				Declare
+					pair type
+						INT
+						BOOL
+					r
+					SND
+						p
+			print
+				r
+		println
+			")"

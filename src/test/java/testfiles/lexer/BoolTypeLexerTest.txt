@@ -1,0 +1,4 @@
+begin
+  bool t = true ;
+  bool f = false
+end

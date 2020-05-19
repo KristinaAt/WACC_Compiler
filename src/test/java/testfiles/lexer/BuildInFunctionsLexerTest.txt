@@ -1,0 +1,6 @@
+begin
+int a = 5 ;
+read a ;
+println "Hello world!" ;
+print "We can print # in a string!"
+end

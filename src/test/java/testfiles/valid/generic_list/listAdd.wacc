@@ -1,0 +1,20 @@
+# basic list declaration and assignment
+
+# Output:
+# []
+# [2 ]
+# [2 9 ]
+
+# Exit:
+# 0
+
+# Program:
+
+begin
+  list<int> a = newlist() ;
+  println a ;
+  a.addToList(2) ;
+  println a ;
+  a.addToList(3 + 6) ;
+  println a
+end

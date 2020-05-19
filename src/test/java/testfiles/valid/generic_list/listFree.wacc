@@ -1,0 +1,19 @@
+# frees a list
+
+# Output:
+# #empty#
+
+# Exit:
+# 0
+
+# Program:
+
+begin
+  list<int> a = newlist() ;
+  free a ;
+  list<int> b = newlist() ;
+  b.addToList(1) ;
+  b.addToList(1) ;
+  b.addToList(1) ;
+  free b 
+end

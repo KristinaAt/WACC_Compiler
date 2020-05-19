@@ -1,0 +1,14 @@
+# evaluating shift left
+
+# Output:
+# 4
+# 1024
+
+# Program:
+
+begin
+  int a = 1 ;
+  println a << 2 ;
+  int b = 10 ;
+  println a << b 
+end

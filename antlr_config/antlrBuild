@@ -1,0 +1,25 @@
+#!/bin/sh
+
+LEXER_FILE=WACCLexer.g4
+PARSER_FILE=WACCParser.g4
+
+LEXER_TOKENS_FILE=WACCLexer.tokens
+
+BASEDIR=$(dirname $0)
+
+TARGET_DIR=../src/main/java/uk/ac/ic/doc/wacc/antlr
+
+rm -rf $TARGET_DIR
+
+echo Compiling the lexer..
+java -jar $BASEDIR/../lib/antlr-4.7-complete.jar $BASEDIR/$LEXER_FILE -o $TARGET_DIR -package uk.ac.ic.doc.wacc.antlr -no-listener -visitor -Werror
+
+if [ $? -ne 0 ]
+then
+	exit 1
+fi
+
+cp $TARGET_DIR/$LEXER_TOKENS_FILE ./
+
+echo Compiling the parser..
+java -jar $BASEDIR/../lib/antlr-4.7-complete.jar $BASEDIR/$PARSER_FILE -o $TARGET_DIR -package uk.ac.ic.doc.wacc.antlr -no-listener -visitor -Werror

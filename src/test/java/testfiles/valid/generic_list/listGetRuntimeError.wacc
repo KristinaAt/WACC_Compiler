@@ -1,0 +1,18 @@
+# gets size of list
+
+# Output:
+# #runtime_error#
+
+# Exit:
+# 255
+
+# Program:
+
+begin
+  list<int> b = newlist() ;
+  b.addToList(1) ;
+  b.addToList(2) ;
+  b.addToList(3) ;
+  int a = b.getFromList(3) ;
+  println a
+end

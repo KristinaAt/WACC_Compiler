@@ -1,0 +1,13 @@
+# basic list declaration and assignment
+
+# Output:
+# #empty#
+
+# Exit:
+# 0
+
+# Program:
+
+begin
+  list<pair(int, int)> a = newlist()
+end

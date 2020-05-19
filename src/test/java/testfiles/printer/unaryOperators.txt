@@ -1,0 +1,31 @@
+Prog
+	Body
+	Compound Statement
+		Compound Statement
+			Compound Statement
+				Compound Statement
+					Compound Statement
+						Compound Statement
+							Compound Statement
+								Declare
+									CHAR
+									a
+									a
+								Declare
+									INT
+									i
+									99
+							print
+								a
+						print
+							" is "
+					println
+						Ord
+							a
+				print
+					i
+			print
+				" is "
+		println
+			Chr
+				i

@@ -1,0 +1,12 @@
+# evaluating or on strings should create semantic error
+
+# Exit:
+# 200
+
+# Program:
+
+begin
+  int a = 1 ;
+  string b = "Oopsie doodle" ;
+  int c = a & b
+end

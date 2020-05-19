@@ -1,0 +1,7 @@
+# simple print statement off a string with a carridge-return character
+
+# Program:
+
+begin
+  print "Hello\r World!"
+end

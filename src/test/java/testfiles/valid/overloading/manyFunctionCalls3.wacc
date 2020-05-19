@@ -1,0 +1,53 @@
+# evaluating pair functions
+
+# Output:
+# 1
+# true
+
+# Exit:
+# 0
+
+# Program:
+
+begin
+  int f() is
+    return 0
+end
+  bool f() is
+    return true
+end
+  int f(int x) is
+    return x
+end
+  int f(bool x) is
+    return 1
+end
+  bool f(int x) is
+    return false
+end
+  bool f(bool x) is
+    return x
+end
+  int f(int x, bool y) is
+    return x
+end
+  bool f(int x, bool y) is
+    return y
+end
+  int f(bool y, int x) is
+    return x
+end
+  bool f(bool y, int x) is
+    return y
+end
+  pair(int, bool) f(pair(int, bool) f, pair(bool, int) g) is
+    return f
+end
+  pair(int, bool) a = newpair(1, true);
+  pair(bool, int) b = newpair(true, 1);
+  pair(int, bool) c = call f(a, b);
+  int d = fst c;
+  println d;
+  bool e = snd c;
+  println e
+end

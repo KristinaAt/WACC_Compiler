@@ -1,0 +1,21 @@
+# gets size of list
+
+# Output:
+# 1
+# 2
+# 3
+
+# Exit:
+# 0
+
+# Program:
+
+begin
+  list<int> b = newlist() ;
+  b.addToList(1) ;
+  b.addToList(2) ;
+  b.addToList(3) ;
+  println b.getFromList(0) ;
+  println b.getFromList(1) ;
+  println b.getFromList(2)
+end

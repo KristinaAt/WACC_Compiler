@@ -1,0 +1,12 @@
+# evaluating shift left, should cause overflow
+
+# Exit:
+# 200
+
+# Program:
+
+begin
+  int a = 1 ;
+  int b = 2 ;
+  string c = a & b
+end

@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+
+    flatDir {
+        dirs 'lib'
+    }
+}
+
+dependencies {
+    implementation name: 'antlr-4.7-complete'
+
+    testImplementation 'junit:junit:4.13'
+    testImplementation 'org.jmock:jmock-junit4:2.12.0'
+    testImplementation 'commons-io:commons-io:2.6'
+}

@@ -1,0 +1,23 @@
+Prog
+	Body
+	Compound Statement
+		Compound Statement
+			Declare
+				CHAR
+				c
+				\0
+			while
+				Compare expression
+					c
+					EQ
+					\0
+			do
+				Compound Statement
+					Assign
+						c
+						a
+					println
+						"Change c"
+			done
+		println
+			"Should print \"Change c\" once before."

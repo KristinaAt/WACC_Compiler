@@ -1,0 +1,16 @@
+# creating void function should be valid
+
+# Output:
+# #empty#
+
+# Exit:
+# 0
+
+# Program:
+
+begin
+  void f() is
+    skip
+  end
+  skip
+end

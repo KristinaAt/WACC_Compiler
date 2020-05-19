@@ -1,0 +1,19 @@
+# checks if list contains
+
+# Output:
+# true
+# false
+
+# Exit:
+# 0
+
+# Program:
+
+begin
+  list<char> b = newlist() ;
+  b.addToList('a') ;
+  b.addToList('b') ;
+  b.addToList('c') ;
+  println b.listContains('a') ;
+  println b.listContains('d')
+end

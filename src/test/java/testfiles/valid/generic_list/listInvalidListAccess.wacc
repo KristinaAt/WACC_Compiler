@@ -1,0 +1,15 @@
+# invalid removal from a list
+
+# Output:
+# Out of bounds access to list.
+# #runtime_error#
+
+# Exit:
+# 255
+
+# Program:
+
+begin
+  list<int> a = newlist() ;
+  a.removeFromList(0)
+end

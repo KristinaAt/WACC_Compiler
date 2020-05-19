@@ -1,0 +1,13 @@
+# evaluating shift left using a pair element
+
+# Output:
+# 1024
+
+# Program:
+
+begin
+  pair(int, int) a = newpair(1, 10) ;
+  int b = fst a ;
+  int c = snd a ;
+  println b << c
+end

@@ -1,0 +1,33 @@
+Prog
+	Body
+	Compound Statement
+		Compound Statement
+			Compound Statement
+				Compound Statement
+					Declare
+						INT[]
+						a
+						Array Literal
+							1
+							2
+							3
+					Declare
+						INT[]
+						b
+						Array Literal
+							3
+							4
+				Declare
+					INT[][]
+					c
+					Array Literal
+						a
+						b
+			println
+Array Element
+					0
+					2
+		println
+Array Element
+				1
+				0

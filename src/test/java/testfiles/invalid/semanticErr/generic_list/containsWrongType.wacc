@@ -1,0 +1,14 @@
+# Cannot do contains on an invalid type
+
+# Output:
+# #empty#
+
+# Exit:
+# 200
+
+# Program:
+
+begin
+  list<int> a = newlist() ;
+  println a.listContains(true)
+end

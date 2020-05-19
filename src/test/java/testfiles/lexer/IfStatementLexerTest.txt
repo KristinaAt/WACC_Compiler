@@ -1,0 +1,9 @@
+begin
+int a = 5 ;
+if true
+then
+  print "true"
+else
+  print "false"
+fi
+end

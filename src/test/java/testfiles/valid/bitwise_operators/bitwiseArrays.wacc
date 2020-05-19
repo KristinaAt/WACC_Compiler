@@ -1,0 +1,11 @@
+# evaluating shift left using an array element
+
+# Output:
+# 1024
+
+# Program:
+
+begin
+  int[] a = [1, 10] ;
+  println a[0] << a[1]
+end

@@ -1,0 +1,16 @@
+# basic list declaration and assignment
+
+# Output:
+# #empty#
+
+# Exit:
+# 200
+
+# Program:
+
+begin
+  list<int> a = newlist() ;
+  bool b = true ; 
+  a.addToList(2) ;
+  a.removeFromList(b)
+end

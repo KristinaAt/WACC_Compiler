@@ -1,0 +1,18 @@
+# calling void function should ouput "called"
+
+# Output:
+# 12345
+# true
+
+# Exit:
+# 0
+
+# Program:
+
+begin
+  void f(int x, bool y) is
+    println x ;
+    println y
+  end
+  call f(12345, true)
+end

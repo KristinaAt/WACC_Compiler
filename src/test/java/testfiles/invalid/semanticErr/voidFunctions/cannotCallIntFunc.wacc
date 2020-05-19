@@ -1,0 +1,16 @@
+# should not be able to call an int function as a statement
+
+# Output:
+# #empty#
+
+# Exit:
+# 200
+
+# Program:
+
+begin
+  int f() is
+    return 2
+  end
+  call f()
+end

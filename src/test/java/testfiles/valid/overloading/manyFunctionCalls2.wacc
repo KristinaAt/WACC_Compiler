@@ -1,0 +1,57 @@
+# evaluating multiple bool functions
+
+
+# Output:
+# true
+# true
+# false
+# true
+
+# Exit:
+# 0
+
+# Program:
+
+begin
+  int f() is
+    return 0
+end 
+  bool f() is
+    return true
+end
+  int f(int x) is
+    return x 
+end
+  int f(bool x) is
+    return 1
+end
+  bool f(int x) is
+    return false
+end
+  bool f(bool x) is
+    return x
+end
+  int f(int x, bool y) is
+    return x
+end
+  bool f(int x, bool y) is
+    return y
+end
+  int f(bool y, int x) is
+    return x
+end
+  bool f(bool y, int x) is
+    return y
+end
+  pair(pair, pair) f(pair(pair, pair) f, pair(pair, pair) g) is
+    return f
+end
+  bool x = call f();
+  println x;
+  x = call f(true);
+  println x;
+  x = call f(1, false);
+  println x;
+  x = call f(true, 2);
+  println x
+end

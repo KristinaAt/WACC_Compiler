@@ -1,0 +1,14 @@
+# basic list declaration and assignment
+
+# Output:
+# #empty#
+
+# Exit:
+# 0
+
+# Program:
+
+begin
+  list<int> a = newlist()
+end
+

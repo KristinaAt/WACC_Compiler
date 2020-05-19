@@ -1,0 +1,33 @@
+# condition simplification test
+
+# Output:
+# -20
+
+# Program:
+
+begin
+ int i = 2;
+ int c = 0;
+ int b = 3;
+  if i > 0
+    then
+       c = c - 10
+  else
+       c = c + 10
+  fi;
+  if i > 0
+    then
+         b = b - 10
+    else
+         b = b + 10
+  fi;
+  if true
+    then
+         c = c - 10
+    else
+         c = c + 10;
+         b = b + 10
+  fi;
+  println c
+end
+ 

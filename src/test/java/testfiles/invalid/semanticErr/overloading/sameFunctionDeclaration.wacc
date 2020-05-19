@@ -1,0 +1,17 @@
+#Creates same function
+
+# Output
+# #empty#
+
+# Exit:
+# 200
+
+begin
+  int f(int x, int y) is
+    return x
+  end
+  int f(int x, int y) is
+    return y
+  end
+  skip
+end
